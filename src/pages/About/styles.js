@@ -11,6 +11,7 @@ export const Channel = styled.section`
     gap: 20px;
 
     img{
+        align-self: center;
         height: 90px;
         width: 90px;
         object-fit: cover;
@@ -24,6 +25,10 @@ export const Channel = styled.section`
     p{
         text-align: justify;
     }
+
+    @media screen and (max-width: 778px){
+        flex-direction: column;
+    }
 `
 
 export const MoreInfo = styled.section`
@@ -33,6 +38,10 @@ export const MoreInfo = styled.section`
     border-radius: 15px;
     padding: 20px 40px;
     gap: 20px;
+
+    @media screen and (max-width: 778px){
+        flex-direction: column;
+    }
 
     span{
         display: flex;
