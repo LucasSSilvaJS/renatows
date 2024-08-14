@@ -21,9 +21,7 @@ function About() {
     function handleMessage(){
         const arraySize = frasesDeTerror.length
         const fraseAleatoria = Math.floor(Math.random()*arraySize)
-        toast.dark(frasesDeTerror[fraseAleatoria], {
-            position: "bottom-right"
-        })
+        toast.dark(frasesDeTerror[fraseAleatoria])
     }
 
     return ( 
